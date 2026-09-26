@@ -23,7 +23,7 @@ import NewsLetter from './components/NewsLetter'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-
+const BASE_URL = import.meta.env.BASE_URL
 
 
 function App() {
