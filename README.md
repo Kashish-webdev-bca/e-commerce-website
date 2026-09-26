@@ -1,13 +1,13 @@
 # 🍔 Restaurant E-Commerce Website
 
-![Project Preview](./img/project-preview.png)
+![Project Preview](./public/img/project-preview.png)
 
 A responsive restaurant e-commerce website built with **React.js** and modern frontend technologies.  
 The project provides an interactive food ordering experience with menu filtering, product details, shopping cart functionality, search, reservations, and responsive UI.
 
 ## 🌐 Live Demo
 
-[View Live Demo](YOUR_LIVE_DEMO_LINK)
+[View Live Website](https://Kashish-webdev-bca.github.io/e-commerce-website/)
 
 ## 📌 About The Project
 
@@ -88,48 +88,30 @@ Contains restaurant contact information and an interactive contact form.
 - **Font Awesome**
 - **Git & GitHub**
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-E-Commerce Website/
+e-commerce-website/
 │
-├── css/
-├── img/
-├── js/
-├── webfonts/
+├── public/
+│   ├── css/
+│   ├── img/
+│   ├── js/
+│   └── webfonts/
 │
 ├── src/
 │   ├── components/
-│   │   ├── About.jsx
-│   │   ├── Blog.jsx
-│   │   ├── Cart.jsx
-│   │   ├── Category.jsx
-│   │   ├── Chefs.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Gallery.jsx
-│   │   ├── GalleryPopup.jsx
-│   │   ├── Hero.jsx
-│   │   ├── History.jsx
-│   │   ├── Hours.jsx
-│   │   ├── Menu.jsx
-│   │   ├── MenuPopup.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── NewsLetter.jsx
-│   │   ├── Reservation.jsx
-│   │   ├── SearchOverlay.jsx
-│   │   ├── SpecialOffer.jsx
-│   │   ├── Testimonials.jsx
-│   │   └── Topbar.jsx
-│   │
 │   ├── App.jsx
 │   ├── main.jsx
-│   └── index.css
 │
-├── .gitignore
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+│
 ├── index.html
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
+├── .gitignore
 └── README.md
 
 ## 🔮 Future Improvements
