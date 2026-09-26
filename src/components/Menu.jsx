@@ -73,7 +73,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                     {/* CARD 1: Burgers */}
                     <div className="col-sm-6 col-lg-4 mwrap" data-c="burgers" data-aos="fade-up" style={{ display: showItem("burgers") ? "block" : "none" }} >
                         <div className="mcard"
-                            data-img="/img/menu/1.jpg"
+                            data-img="img/menu/1.jpg"
                             data-title="classNameic Smash Burger"
                             data-cat="Burgers"
                             data-price="$14.99" data-old="$18.99"
@@ -83,7 +83,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                             data-tags="Spicy,Bestseller,Beef"
                             onClick={() => {
                                 onMenuOpen({
-                                    img: "/img/menu/1.jpg",
+                                    img: "img/menu/1.jpg",
                                     title: "Classic Smash Burger",
                                     cat: "Burgers",
                                     price: "$14.99",
@@ -97,7 +97,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                                 })
                             }}>
                             <div className="mimg">
-                                <img src="/img/menu/1.jpg" alt="Smash Burger" />
+                                <img src="img/menu/1.jpg" alt="Smash Burger" />
                                 <div className="mbdg hot"><i ></i> Hot</div>
                                 <div className="mhrt" onClick={(e) => {
                                     e.stopPropagation()
@@ -124,7 +124,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                     {/* CARD 2: Pizza */}
                     <div className="col-sm-6 col-lg-4 mwrap" data-c="pizza" data-aos="fade-up" data-aos-delay="80" style={{ display: showItem("pizza") ? "block" : "none" }}>
                         <div className="mcard"
-                            data-img="/img/menu/2.jpg"
+                            data-img="img/menu/2.jpg"
                             data-title="Margherita Royale"
                             data-cat="Pizza"
                             data-price="$19.99" data-old="$24.99"
@@ -133,7 +133,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                             data-desc="San Marzano tomatoes, fresh buffalo mozzarella, fragrant basil leaves, drizzled with Italian truffle oil on a hand-stretched sourdough base."
                             data-tags="Vegetarian,New,Italian" onClick={() => {
                                 onMenuOpen({
-                                    img: "/img/menu/2.jpg",
+                                    img: "img/menu/2.jpg",
                                     title: "Margherita Royale",
                                     cat: "Pizza",
                                     price: "$19.99",
@@ -147,7 +147,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                                 })
                             }}>
                             <div className="mimg">
-                                <img src="/img/menu/2.jpg" alt="Pizza" />
+                                <img src="img/menu/2.jpg" alt="Pizza" />
                                 <div className="mbdg new"><i className="fas fa-star"></i> New</div>
                                 <div className="mhrt" onClick={(e) => {
                                     e.stopPropagation()
@@ -174,7 +174,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                     {/* CARD 3: Chicken */}
                     <div className="col-sm-6 col-lg-4 mwrap" data-c="chicken" data-aos="fade-up" data-aos-delay="160" style={{ display: showItem("chicken") ? "block" : "none" }}>
                         <div className="mcard"
-                            data-img="/img/menu/3.jpg"
+                            data-img="img/menu/3.jpg"
                             data-title="Nashville Hot Chicken"
                             data-cat="Chicken"
                             data-price="$12.99" data-old="$16.99"
@@ -183,7 +183,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                             data-desc="Extra-crispy fried chicken tossed in our signature fiery Nashville spice blend, served with honey drizzle and house pickles on a toasted brioche bun."
                             data-tags="Spicy,Bestseller,Crispy" onClick={() => {
                                 onMenuOpen({
-                                    img: "/img/menu/3.jpg",
+                                    img: "img/menu/3.jpg",
                                     title: "Nashville Hot Chicken",
                                     cat: "Chicken",
                                     price: "$12.99",
@@ -197,7 +197,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                                 })
                             }}>
                             <div className="mimg">
-                                <img src="/img/menu/3.jpg" alt="Chicken" />
+                                <img src="img/menu/3.jpg" alt="Chicken" />
                                 <div className="mbdg"><i className="fas fa-star"></i> Best Seller</div>
                                 <div className="mhrt" onClick={(e) => {
                                     e.stopPropagation()
@@ -224,7 +224,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                     {/* CARD 4: Wraps */}
                     <div className="col-sm-6 col-lg-4 mwrap" data-c="wraps" data-aos="fade-up" style={{ display: showItem("wraps") ? "block" : "none" }}>
                         <div className="mcard"
-                            data-img="/img/menu/4.jpg"
+                            data-img="img/menu/4.jpg"
                             data-title="Loaded Fajita Wrap"
                             data-cat="Wraps"
                             data-price="$10.99" data-old=""
@@ -233,7 +233,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                             data-desc="Grilled chicken strips, saut�ed bell peppers and onions, sour cream, fresh guacamole and salsa wrapped in a warm flour tortilla with melted cheddar."
                             data-tags="Grilled,Fresh,Mexican" onClick={() => {
                                 onMenuOpen({
-                                    img: "/img/menu/4.jpg",
+                                    img: "img/menu/4.jpg",
                                     title: "Loaded Fajita Wrap",
                                     cat: "Wraps",
                                     price: "$10.99",
@@ -247,7 +247,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                                 })
                             }}>
                             <div className="mimg">
-                                <img src="/img/menu/4.jpg" alt="Wrap" />
+                                <img src="img/menu/4.jpg" alt="Wrap" />
                                 <div className="mhrt" onClick={(e) => {
                                     e.stopPropagation()
                                     const updatedLikes = [...likedItems]
@@ -273,7 +273,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                     {/* CARD 5: Desserts */}
                     <div className="col-sm-6 col-lg-4 mwrap" data-c="desserts" data-aos="fade-up" data-aos-delay="80" style={{ display: showItem("desserts") ? "block" : "none" }}>
                         <div className="mcard"
-                            data-img="/img/menu/5.jpg"
+                            data-img="img/menu/5.jpg"
                             data-title="Nutella Lava Cake"
                             data-cat="Desserts"
                             data-price="$8.99" data-old="$11.99"
@@ -282,7 +282,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                             data-desc="Warm molten chocolate cake with a gooey Nutella center, served alongside Madagascar vanilla bean ice cream with salted caramel drizzle and fresh berries."
                             data-tags="Sweet,New,Chocolate" onClick={() => {
                                 onMenuOpen({
-                                    img: "/img/menu/5.jpg",
+                                    img: "img/menu/5.jpg",
                                     title: "Nutella Lava Cake",
                                     cat: "Desserts",
                                     price: "$8.99",
@@ -296,7 +296,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                                 })
                             }}>
                             <div className="mimg">
-                                <img src="/img/menu/5.jpg" alt="Lava Cake" />
+                                <img src="img/menu/5.jpg" alt="Lava Cake" />
                                 <div className="mbdg new"><i className="fas fa-star"></i> New</div>
                                 <div className="mhrt" onClick={(e) => {
                                     e.stopPropagation()
@@ -323,7 +323,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                     {/* CARD 6: Pasta */}
                     <div className="col-sm-6 col-lg-4 mwrap" data-c="pasta" data-aos="fade-up" data-aos-delay="160" style={{ display: showItem("pasta") ? "block" : "none" }}>
                         <div className="mcard"
-                            data-img="/img/menu/6.jpg"
+                            data-img="img/menu/6.jpg"
                             data-title="Truffle Mushroom Pasta"
                             data-cat="Pasta"
                             data-price="$16.99" data-old=""
@@ -332,7 +332,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                             data-desc="Al dente tagliatelle tossed with mixed wild mushrooms, freshly shaved black truffle, aged parmesan, fresh thyme and a touch of cream in garlic butter."
                             data-tags="Vegetarian,Chef's Pick,Italian" onClick={() => {
                                 onMenuOpen({
-                                    img: "/img/menu/6.jpg",
+                                    img: "img/menu/6.jpg",
                                     title: "Truffle Mushroom Pasta",
                                     cat: "Pasta",
                                     price: "$16.99",
@@ -346,7 +346,7 @@ function Menu({ selectedCategory, onCategorySelect, onMenuOpen }) {
                                 })
                             }}>
                             <div className="mimg">
-                                <img src="/img/menu/6.jpg" alt="Pasta" />
+                                <img src="img/menu/6.jpg" alt="Pasta" />
                                 <div className="mbdg hot">Chef's Pick</div>
                                 <div className="mhrt" onClick={(e) => {
                                     e.stopPropagation()

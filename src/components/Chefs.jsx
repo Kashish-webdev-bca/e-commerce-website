@@ -12,7 +12,7 @@ function Chefs() {
                     <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
                         <div className="chcard">
                             <div className="chimg">
-                                <img src="/img/chefs/1.jpg" alt="" />
+                                <img src="img/chefs/1.jpg" alt="" />
                                 <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
                             </div>
                             <div className="chbody">
@@ -25,7 +25,7 @@ function Chefs() {
                     <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
                         <div className="chcard">
                             <div className="chimg">
-                                <img src="/img/chefs/2.jpg" alt="" />
+                                <img src="img/chefs/2.jpg" alt="" />
                                 <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
                             </div>
                             <div className="chbody">
@@ -38,7 +38,7 @@ function Chefs() {
                     <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
                         <div className="chcard">
                             <div className="chimg">
-                                <img src="/img/chefs/3.jpg" alt="" />
+                                <img src="img/chefs/3.jpg" alt="" />
                                 <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
                             </div>
                             <div className="chbody">
@@ -51,7 +51,7 @@ function Chefs() {
                     <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
                         <div className="chcard">
                             <div className="chimg">
-                                <img src="/img/chefs/4.jpg" alt="" />
+                                <img src="img/chefs/4.jpg" alt="" />
                                 <div className="chsoc"><a href="#"><i className="fab fa-instagram"></i></a><a href="#"><i className="fab fa-facebook-f"></i></a><a href="#"><i className="fab fa-twitter"></i></a></div>
                             </div>
                             <div className="chbody">

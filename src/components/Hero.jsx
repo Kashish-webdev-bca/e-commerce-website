@@ -36,7 +36,7 @@ function Hero() {
                     <div className="col-lg-6">
                         <div style={{ position: "relative", textAlign: "center" }}>
                             <div className="hcircle">
-                                <img src="/img/banner-img.jpg" alt="Burger" />
+                                <img src="img/banner-img.jpg" alt="Burger" />
                             </div>
                             <div className="fcard fc1">
                                 <div className="fcoi r"><i className="fas fa-fire"></i></div>

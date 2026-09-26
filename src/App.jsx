@@ -24,6 +24,8 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 
+
+
 function App() {
 
   const [searchOpen, setSearchOpen] = useState(false)
@@ -86,27 +88,27 @@ function App() {
   const [cartOpen, setCartOpen] = useState(false)
   const galleryItems = [
     {
-      img: "/img/portfolio/work1.jpg",
+      img: `${BASE_URL}img/portfolio/work1.jpg`,
       title: "Gourmet Burgers",
       desc: "Our award-winning smash burgers, hand-crafted with 100% premium beef, aged cheddar and house-made sauces."
     },
     {
-      img: "/img/portfolio/work2.jpg",
+      img: `${BASE_URL}img/portfolio/work2.jpg`,
       title: "Wood-Fired Pizza",
       desc: "Authentic Neapolitan-style pizzas fired at 900deg F in our wood-burning stone oven for the perfect char."
     },
     {
-      img: "/img/portfolio/work3.jpg",
+      img: `${BASE_URL}img/portfolio/work3.jpg`,
       title: "Crispy Fried Chicken",
       desc: "Double-brined, hand-battered chicken fried to golden perfection using our 15-spice secret blend."
     },
     {
-      img: "/img/portfolio/work4.jpg",
+      img: `${BASE_URL}img/portfolio/work4.jpg`,
       title: "Sweet Desserts",
       desc: "Handcrafted desserts - from molten lava cakes to artisan ice cream sundaes and seasonal pastries."
     },
     {
-      img: "/img/portfolio/work5.jpg",
+      img: `${BASE_URL}img/portfolio/work5.jpg`,
       title: "Fresh Wraps & Rolls",
       desc: "Loaded fresh wraps packed with grilled proteins, crunchy vegetables and our house-made sauces."
     }

@@ -18,7 +18,7 @@ function Category({ onCategorySelect }) {
                         behavior: "smooth"
                      })
                   }}>
-                     <img className="catimg" src="/img/category/1.jpg" alt="" />
+                     <img className="catimg" src="img/category/1.jpg" alt="" />
                      <div className="catnm">All Items</div>
                      <div className="catct">99 items</div>
                   </div>
@@ -30,7 +30,7 @@ function Category({ onCategorySelect }) {
                         behavior: "smooth"
                      })
                   }}>
-                     <img className="catimg" src="/img/category/2.jpg" alt="" />
+                     <img className="catimg" src="img/category/2.jpg" alt="" />
                      <div className="catnm">Burgers</div>
                      <div className="catct">24 items</div>
                   </div>
@@ -42,7 +42,7 @@ function Category({ onCategorySelect }) {
                         behavior: "smooth"
                      })
                   }}>
-                     <img className="catimg" src="/img/category/3.jpg" alt="" />
+                     <img className="catimg" src="img/category/3.jpg" alt="" />
                      <div className="catnm">Pizza</div>
                      <div className="catct">18 items</div>
                   </div>
@@ -54,7 +54,7 @@ function Category({ onCategorySelect }) {
                         behavior: "smooth"
                      })
                   }}>
-                     <img className="catimg" src="/img/category/4.jpg" alt="" />
+                     <img className="catimg" src="img/category/4.jpg" alt="" />
                      <div className="catnm">Fried Chicken</div>
                      <div className="catct">15 items</div>
                   </div>
@@ -66,7 +66,7 @@ function Category({ onCategorySelect }) {
                         behavior: "smooth"
                      })
                   }}>
-                     <img className="catimg" src="/img/category/5.jpg" alt="" />
+                     <img className="catimg" src="img/category/5.jpg" alt="" />
                      <div className="catnm">Wraps</div>
                      <div className="catct">12 items</div>
                   </div>
@@ -78,7 +78,7 @@ function Category({ onCategorySelect }) {
                         behavior: "smooth"
                      })
                   }}>
-                     <img className="catimg" src="/img/category/6.jpg" alt="" />
+                     <img className="catimg" src="img/category/6.jpg" alt="" />
                      <div className="catnm">Desserts</div>
                      <div className="catct">20 items</div>
                   </div>

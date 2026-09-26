@@ -47,7 +47,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
                      })
                   }}
                >
-                  <img src="/img/menu/1.jpg" alt="" />All Items
+                  <img src="img/menu/1.jpg" alt="" />All Items
                </div>
                <div className="sovcat" data-cat="burgers"
                   onClick={() => {
@@ -61,7 +61,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
 
 
                >
-                  <img src="/img/menu/1.jpg" alt="" />Burgers
+                  <img src="img/menu/1.jpg" alt="" />Burgers
                </div>
                <div className="sovcat" data-cat="pizza"
                   onClick={() => {
@@ -73,7 +73,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
                      })
                   }}
                >
-                  <img src="/img/menu/2.jpg" alt="" />Pizza
+                  <img src="img/menu/2.jpg" alt="" />Pizza
                </div>
                <div className="sovcat" data-cat="chicken"
                   onClick={() => {
@@ -85,7 +85,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
                      })
                   }}
                >
-                  <img src="/img/menu/3.jpg" alt="" />Chicken
+                  <img src="img/menu/3.jpg" alt="" />Chicken
                </div>
                <div className="sovcat" data-cat="wraps"
                   onClick={() => {
@@ -97,7 +97,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
                      })
                   }}
                >
-                  <img src="/img/menu/4.jpg" alt="" />Wraps
+                  <img src="img/menu/4.jpg" alt="" />Wraps
                </div>
                <div className="sovcat" data-cat="pasta"
                   onClick={() => {
@@ -109,7 +109,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
                      })
                   }}
                >
-                  <img src="/img/menu/5.jpg" alt="" />Pasta
+                  <img src="img/menu/5.jpg" alt="" />Pasta
                </div>
                <div className="sovcat" data-cat="desserts"
                   onClick={() => {
@@ -121,7 +121,7 @@ function SearchOverlay({ isOpen, onSearchClose, onCategorySelect }) {
                      })
                   }}
                >
-                  <img src="/img/menu/6.jpg" alt="" />Desserts
+                  <img src="img/menu/6.jpg" alt="" />Desserts
                </div>
             </div>
             <div className="sovtrend">

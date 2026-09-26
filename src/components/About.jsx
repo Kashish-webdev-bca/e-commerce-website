@@ -7,8 +7,8 @@ function About() {
                <div className="col-lg-5" data-aos="fade-right">
                   <div className="astack">
                      <div className="aexp"><span className="anum">12+</span><small>Years of<br />Excellence</small></div>
-                     <div className="amain"><img src="/img/about1.jpg" alt="Restaurant" /></div>
-                     <div className="asm"><img src="/img/about2.jpg" alt="" /></div>
+                     <div className="amain"><img src="img/about1.jpg" alt="Restaurant" /></div>
+                     <div className="asm"><img src="img/about2.jpg" alt="" /></div>
                   </div>
                </div>
                <div className="col-lg-7" data-aos="fade-left">

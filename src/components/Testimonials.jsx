@@ -8,25 +8,25 @@ function Testimonials() {
   const reviews = [
     {
       text: "Honestly the best burgers I've ever had. The smash burger is incredible - perfectly crispy edges, juicy inside, and those pickles! We come every Friday now.",
-      image: "/img/testimonial/1.jpg",
+      image: "img/testimonial/1.jpg",
       name: "Monica Wilber",
       role: "Regular Customer",
     },
     {
       text: "Ordered delivery and the food arrived hot and fresh in 22 minutes. Portions are generous. Sarab has become my go-to comfort food spot without question.",
-      image: "/img/testimonial/2.jpg",
+      image: "img/testimonial/2.jpg",
       name: "Cameron Fox",
       role: "Food Blogger",
     },
     {
       text: "The truffle pasta blew my mind. I didn't expect that quality from a fast food place. Great ambiance, super friendly staff. Highly recommended!",
-      image: "/img/testimonial/3.jpg",
+      image: "img/testimonial/3.jpg",
       name: "Priya Sharma",
       role: "Food Enthusiast",
     },
     {
       text: "Catered our office party of 50 people and everything was flawless. Fresh, delicious, on time and well presented. Nashville chicken was the absolute star!",
-      image: "/img/testimonial/4.jpg",
+      image: "img/testimonial/4.jpg",
       name: "David Park",
       role: "Corporate Client",
     },

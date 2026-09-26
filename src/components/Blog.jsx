@@ -12,7 +12,7 @@ function Blog() {
                <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                   <div className="blcard">
                      <div className="blimg">
-                        <img src="/img/blog/1.jpg" alt="" />
+                        <img src="img/blog/1.jpg" alt="" />
                         <div className="bldatebdg"><span className="bd">14</span><span className="bm">Mar</span></div>
                      </div>
                      <div className="blbody">
@@ -26,7 +26,7 @@ function Blog() {
                <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
                   <div className="blcard">
                      <div className="blimg">
-                        <img src="/img/blog/2.jpg" alt="" />
+                        <img src="img/blog/2.jpg" alt="" />
                         <div className="bldatebdg"><span className="bd">28</span><span className="bm">Feb</span></div>
                      </div>
                      <div className="blbody">
@@ -40,7 +40,7 @@ function Blog() {
                <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
                   <div className="blcard">
                      <div className="blimg">
-                        <img src="/img/blog/3.jpg" alt="" />
+                        <img src="img/blog/3.jpg" alt="" />
                         <div className="bldatebdg"><span className="bd">05</span><span className="bm">Jan</span></div>
                      </div>
                      <div className="blbody">
